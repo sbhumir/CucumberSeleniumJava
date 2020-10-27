@@ -2,6 +2,15 @@
 A Maven Cucumber Selenium Java project that demos Page Object Model, Page Factory, tags, Hooks, Reporting
 
 # Requirements
-Create a Maven Project and add Maven dependencies for Cucumber, Selenium, JUnit, Json, maven-surefire-plugin
+JRE, JDK, Eclipse IDE installed. 
+jre version has to be greater than 1.5
+Create a Maven Project, add Maven dependencies for Cucumber, Selenium, JUnit, Json, maven-surefire-plugin
 # Usability
-$ mvn test
+Run the following from cmd
+```python
+$mvn test
+or
+$mvn test -Dcucumber.options=”-p html:target/HtmlReports”
+or
+$mvn verify -DskipTests
+```
