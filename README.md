@@ -6,7 +6,7 @@ User knows how to create a Maven Project and Java
 
 # Requirements
 JRE, JDK, Eclipse IDE installed. 
-jre version has to be greater than 1.5
+jre version has to be greater than 1.5.
 Create a Maven Project, add Maven dependencies for Cucumber, Selenium, JUnit, Json, maven-surefire-plugin
 # Usability
 Run the following from cmd
